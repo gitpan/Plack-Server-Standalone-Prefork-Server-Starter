@@ -1,0 +1,25 @@
+NAME
+    Plack::Server::Standalone::Prefork::Server::Starter
+
+SYNOPSIS
+      % start_server --port=80 -- plackup -s Standalone::Prefork::Server::Starter
+
+DESCRIPTION
+    Plack::Server::Standalone::Prefork::Server::Starter is a wrapper to
+    manage PLack::Server::Standalone::Prefork using Server::Starter.
+
+    All parameters of Plack::Server::Standalone::Prefork except "host" and
+    "port" can be passed to this module.
+
+AUTHOR
+    Kazuho Oku
+
+SEE ALSO
+    Plack::Server::Standalone::Prefork Server::Starter
+
+LICENSE
+    This program is free software; you can redistribute it and/or modify it
+    under the same terms as Perl itself.
+
+    See <http://www.perl.com/perl/misc/Artistic.html>
+
