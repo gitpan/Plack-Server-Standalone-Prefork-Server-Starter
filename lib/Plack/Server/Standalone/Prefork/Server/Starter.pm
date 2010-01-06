@@ -3,10 +3,12 @@ package Plack::Server::Standalone::Prefork::Server::Starter;
 use strict;
 use warnings;
 
+use 5.008;
+
 use Server::Starter ();
 use base qw(Plack::Server::Standalone::Prefork);
 
-our $VERSION = '0.02';
+our $VERSION = '0.03';
 
 sub new {
     my ($klass, %args) = @_;

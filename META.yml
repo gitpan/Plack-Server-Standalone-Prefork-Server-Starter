@@ -4,6 +4,7 @@ author:
   - 'Kazuho Oku'
 build_requires:
   ExtUtils::MakeMaker: 6.42
+  Test::More: 0.88
   Test::TCP: 0.15
 configure_requires:
   ExtUtils::MakeMaker: 6.42
@@ -19,10 +20,13 @@ no_index:
   directory:
     - inc
     - t
+recommends:
+  HTTP::Parser::XS: 0
 requires:
   Parallel::Prefork: 0.05
   Plack: 0.902
   Server::Starter: 0.05
+  perl: 5.8.0
 resources:
   license: http://dev.perl.org/licenses/
-version: 0.02
+version: 0.03
