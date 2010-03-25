@@ -1,5 +1,8 @@
 Revision history for Perl extension Plack::Server::Standalone::Prefork::Server::Starter
 
+0.04
+	- follow the changes up to Plack 0.9920
+
 0.03
 	- try to find start_server from $PATH and $^X, or skip most tests (but not all) if not found
 	- require 5.008, recommend HTTP::Parser::XS

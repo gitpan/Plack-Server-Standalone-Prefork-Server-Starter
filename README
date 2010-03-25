@@ -14,8 +14,14 @@ DESCRIPTION
 AUTHOR
     Kazuho Oku
 
+NOTES
+    If you are looking for a standalone preforking HTTP server, then you
+    should really look at Starman. However if your all want is a simple HTTP
+    server that runs behind a reverse proxy, this good old module still does
+    what it used to.
+
 SEE ALSO
-    Plack::Server::Standalone::Prefork Server::Starter
+    Starman Server::Starter
 
 LICENSE
     This program is free software; you can redistribute it and/or modify it
